@@ -61,7 +61,7 @@ void display(){
 	}
 	printf("%d",temp->data);
 }
-void delete(){
+void delet(){
    struct node* temp;
 	int loc;
 	printf("Enter location to delete");
@@ -121,7 +121,7 @@ void main(){
 			       break;
 			case 5:display();
 			       break;
-			case 6:delete();
+			case 6:delet();
 			       break;
 			case 7:reverse();
 			       break;       
