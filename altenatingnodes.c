@@ -60,5 +60,5 @@ void main(){
         q=q->next;
         c++;
     }
-  return 0;
+  
 }
